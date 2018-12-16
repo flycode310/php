@@ -11,6 +11,7 @@ while (1) {
 		break;
 	}
 	$str = str_replace("吗", "", $str);
+	$str = str_replace("么", "", $str);
 	$str = str_replace("?", "!", $str);
 	$str = str_replace("？", "!", $str);
 	echo $str;
